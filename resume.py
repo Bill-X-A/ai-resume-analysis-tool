@@ -5,7 +5,7 @@ import fitz
 client = ZhipuAI(api_key=st.secrets["ZHIPU_API_KEY"])
 
 st.title("📄 简历优化器")
-st.write("上传你的简历，AI给出改进建议")
+st.write("上传你的简历，谢鹏辉大王给出改进建议")
 
 uploaded_file = st.file_uploader("上传简历（PDF格式）", type="pdf")
 
